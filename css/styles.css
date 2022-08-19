@@ -1,0 +1,47 @@
+p { 
+    color: rgb(43, 226, 89);
+    font-style: italic;
+  }
+  h1, h2, h3, h4, h5, h6{
+      color: rgb(255, 0, 0);  
+      font-family: Arial, Helvetica, sans-serif;
+  }
+  #title {
+      text-decoration: underline;
+      background-color: rgb(173, 196, 230);
+  }
+
+  .subTitle {
+    text-decoration: dotted;
+    background-color: rgb(14, 15, 15);
+    color: white;
+}
+
+#staffTable {
+    font-family: 'Courier New', Courier, monospace;
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+#staffTable td, #staffTable thead {
+    border-width: 1px; 
+    border-style: solid; 
+    border-color: #ddd
+    padding  8px;
+}
+
+#staffTable th {
+    background-color: darkcyan;
+    color: #ddd;
+}
+
+  .information {
+    color: cornflowerblue;
+    font-style: normal;
+  }
+
+  .dp{
+    width: 400px;
+    height: 250px
+  }
